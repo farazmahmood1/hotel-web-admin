@@ -138,10 +138,10 @@ const BuyPackages = () => {
                           {isInvested === "0" && (
                             <a
                               className="btn btn-primary"
-                              onClick={() => {
-                                oncloseModal();
-                                setUserID(items);
-                              }}
+                              // onClick={() => {
+                              //   oncloseModal();
+                              //   setUserID(items);
+                              // }}
                             >
                               Buy Now
                             </a>
